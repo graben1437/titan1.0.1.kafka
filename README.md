@@ -322,7 +322,7 @@ the node where the transaction occurs is where the logging of the transaction ta
 the call back to a listener occurs (makes sense given the way Java works).
 
 The implication is that if running Titan on a multi-node cluster, a Titan-Kafka listener/producer process
-will need to started on each of the nodes in order to collect all transactions occurring across the
+will need to be started on each of the nodes in order to collect all transactions occurring across the
 Titan cluster.  The listener/publisher on each node can be configured to publish to the same Kafka topic,
 providing a centralized list of transactions in one place for consumers.
 
