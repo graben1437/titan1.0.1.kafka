@@ -368,7 +368,7 @@ the Titan change log infrastructure.  The listener itself is a separate process 
 One reason the code is a separate process, is that after looking at the existing Titan code, it turns out
 that the  KCVSLog subsystem isn't entirely pluggable.  For example, StandardTitanGraph.java refers specifically
 to KCVSLog rather than an interface:  
-`final KCVSLog txLog = logTransaction?backend.getSystemTxLog():null;`
+`final KCVSLog txLog = logTransaction.backend.getSystemTxLog()`
 
 A second reason the listener is a separate process, is this was the fastest way to get the function running.
 
