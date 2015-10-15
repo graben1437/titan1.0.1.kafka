@@ -7,7 +7,7 @@ a compact JSON format.
 
 This proof-of-concept code provides a working example of a Titan/Kafka listener/publisher.
  
-Please provide feedback via github issues on architectural or design considersations you would like
+Please provide feedback via github issues on architectural or design considerations you would like
 considered as this function matures. 
 
 Eventually, this code will be refactored into a formal pull request to the Titan project after consideration
