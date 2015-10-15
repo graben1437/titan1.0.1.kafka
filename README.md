@@ -6,25 +6,21 @@ The Titan-Kafka listener/publisher publishes each Titan transaction to a configu
 a compact JSON format.
 
 ## Technology Preview
-This implementation should be considered experimental.
 
-This code preview provides a working example of a Titan/Kafka listener/publisher to fuel community discussion
-around architectural considerations of what this function might ultimately look like in Titan, and to uncover 
-requirements that may not have been considered.
+This proof-of-concept code provides a working example of a Titan/Kafka listener/publisher.
+ 
+Please provide feedback on architectural considerations of what this function should ultimately look like in Titan,
+and if there are additional requirements that were not considered.
 
-Eventually, this technology preview will be refactored into a formal pull request to the Titan project after 
-consideration of community input around architecture and requirements.  (It might be more than one pull request).
+Eventually, this code will be refactored into a formal pull request to the Titan project after consideration
+of input from the community.
 
-Because this is experimental, some expected items may not be found.  For example, the test cases may not be complete,
-the scripts for the integration may not be located in proper directories under Titan after a build, there is no formal
-documentation in asciidoc.
+Because this is experimental, some of the packaging and use cases are not yet present.
 
-What you will find later in this readme, is a fairly extensive discussion of different design considerations.
+This readme provides a fairly extensive discussion of different design considerations.
 
 In addition to the Titan-Kafka listener/publisher, a sample Titan-HTTP listener/publisher is also provided, although
-it is not the focus of this effort.  The Titan-HTTP listener/publisher works the same way as the Titan-Kafka 
-listener/publisher except messages are published to a URL.
-
+it is not the focus of this effort.
 
 ## Getting Started
 This preview is based on Titan 1.0.1-SNAPSHOT
