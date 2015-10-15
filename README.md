@@ -15,7 +15,7 @@ considered as this function matures.
 Eventually, this code will be refactored into a formal pull request to the Titan project after consideration
 of input from the community.
 
-Because this is experimental, some of the packaging and use cases are not yet present.
+Because this is experimental, some of the packaging and test cases are not yet present.
 
 This readme provides a fairly extensive discussion of different design considerations.
 
