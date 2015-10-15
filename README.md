@@ -1,7 +1,5 @@
 # Titan-Kafka Publisher
 
-Author: David Robinson (drobin1437@gmail.com)
-
 The Titan-Kafka listener/publisher publishes each Titan transaction to a configurable Kafka topic in
 a compact JSON format.
 
@@ -9,8 +7,8 @@ a compact JSON format.
 
 This proof-of-concept code provides a working example of a Titan/Kafka listener/publisher.
  
-Please provide feedback on architectural considerations of what this function should ultimately look like in Titan,
-and if there are additional requirements that were not considered.
+Please provide feedback via github issues on architectural or design considersations you would like
+considered as this function matures. 
 
 Eventually, this code will be refactored into a formal pull request to the Titan project after consideration
 of input from the community.
