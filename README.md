@@ -3,6 +3,8 @@
 The Titan-Kafka listener/publisher publishes each Titan transaction to a configurable Kafka topic in
 a compact JSON format.
 
+Changes were made to core Titan in addition to adding a new module, so a full Titan package is included.
+
 ## Technology Preview
 
 This proof-of-concept code provides a working example of a Titan/Kafka listener/publisher.
@@ -40,8 +42,6 @@ Download this source from github and build Titan exactly as you would with Titan
 
 `mvn clean install -DskipTests=true` issued from $TITAN_HOME is typically sufficient.
 
-Core code changes were made to Titan to provide the demonstrated function, so a complete Titan build is provided rather
-than a delta update.
 
 **2)** Install a Kafka cluster (and its prerequisites).
 [Kafka Quickstart Instructions](http://kafka.apache.org/documentation.html#quickstart)
