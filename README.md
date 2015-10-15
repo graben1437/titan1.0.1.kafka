@@ -33,7 +33,7 @@ You may need to install maven if it is not already installed.
 A four node Cassandra 2.1 cluster was used to test this code. You can use a single Cassandra node or a cluster.
 There is nothing Cassandra specific to the Titan/Kafka support so HBase can also be used.
 
-A four node Kafka 0.8.2 was used to test this code.  You can choose to use any size Kafka cluster.
+A four node Kafka 0.8.2 cluster was used to test this code.  You can choose to use any size Kafka cluster.
 
 **1)** Build This Titan Package
 
