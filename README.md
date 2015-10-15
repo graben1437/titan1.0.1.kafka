@@ -418,7 +418,7 @@ The current Titan change log logic "reconstitutes" vertices and edges based on i
 the user transaction log.  The logic reuses existing objects in Titan, such as the StandardVertex and CacheVertex 
 (and/or similar such classes). These classes are intended to represent objects in the active graph, not reconstituted 
 objects from a change log.  This caused problems in the listener when trying to retrieve properties of removed objects,
-because the existing logic checks for a "removed" state and throws exceptions, prevening properties from being 
+because the existing logic checks for a "removed" state and throws exceptions, preventing properties from being 
 retrieved.  It turns out the user transaction log doesn't record all of the properties for objects being deleted anyway,
 so at the moment, there is no benefit provided by the ChangeLog state that is in the current experiment.
 
