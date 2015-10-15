@@ -302,7 +302,7 @@ to delete a topic using the kafka-topics.sh command.
 SolrCloud and Kafka have namespace collisions in Zookeeper.  Beware if sharing 
 the same Zookeeper between a SolrCloud and a Kafka installation.  This problem
 can manifest itself in 'wild' looking replication or partition settings for a Kafka
-topic if SolrCloud data is already in Zookeeper prior to start a Kafka cluster.
+topic if SolrCloud data is already in Zookeeper prior to starting your Kafka cluster.
 
 **4** Using the HTTP Producer Example
 
