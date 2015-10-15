@@ -408,8 +408,7 @@ Currently, the JSON payload is not seralized.  Kafka producer/consumers frequent
 Various options are available for serialization, including Avro and Kryo.  It isn't clear if serialization provides
 significant benefit in this case.
 
-I prefer not to get into pluggable serialization, or switches to turn serialization on and off but if those are
-options seen as incredibly valuable, they can be considered.
+I prefer not to get into pluggable serialization, or switches to turn serialization on and off.
 
 ### Attributes reported on removal
 The experimental Titan code base contains changes to the ElementLifeCycle.java class in Titan to add a new lifecycle
