@@ -218,9 +218,9 @@ published: {"txtime":2015-10-14T01:12:57.034Z,"removed":[{"removedEdges":[],"id"
 A named transaction session add example:
 ```
 gremlin> graph=TitanFactory.open('./cass.properties')
-==>standardtitangraph[cassandrathrift:[10.91.71.221, 10.91.71.220, 10.91.71.228]]
+==>standardtitangraph[cassandrathrift:[XX.XX.71.219, XX.XX.71.223, XX.XX.71.229]]
 gremlin> g=graph.traversal()
-==>graphtraversalsource[standardtitangraph[cassandrathrift:[10.91.71.221, 10.91.71.220, 10.91.71.228]], standard]
+==>graphtraversalsource[standardtitangraph[cassandrathrift:[XX.XX.71.219, XX.XX.71.223, XX.XX.71.229]], standard]
 gremlin> tx=graph.buildTransaction().logIdentifier('kafkaproducer').start()
 ==>standardtitantx[0x5d8ab698]
 gremlin> v1=tx.addVertex(label, 'human')
