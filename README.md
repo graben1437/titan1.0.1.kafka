@@ -348,7 +348,7 @@ A graph transaction supports:
 
 You can experiment with the behavior of named transactions and the Titan-Kafka listener/publisher by turning
 the `tx.report-all-transactions` value in the cass.properties file to false and specifying the correct
-string in the logIdentifier in your commands (see examples above).  The listner/publisher will still
+string in the logIdentifier in your commands (see examples above).  The listener/publisher will still
 publish transactions performed on the named transactions, but auto transactions will no longer be reported.
 
 Auto transactions occur every time some change is made to the graph outside of an explicitly declared transaction.
